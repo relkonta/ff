@@ -12,7 +12,7 @@ ___
 
 # Quality Of Life
 
-Faster preloading
+## Faster preloading
 
 ```
 {
@@ -21,7 +21,7 @@ Faster preloading
 }
 ```
 
-Limits lighting changes
+## Limits lighting changes
 
 ```
 {
@@ -29,10 +29,26 @@ Limits lighting changes
     "FIntRenderLocalLightUpdatesMin": "6"
 }
 ```
-Remove in-game advertisements
+## Remove in-game advertisements
 
 ```
 {
     "FFlagAdServiceEnabled": "False"
 }
 ```
+
+## Disable telemetry
+
+```
+{
+    "FFlagDebugDisableTelemetryEphemeralCounter": "True",
+    "FFlagDebugDisableTelemetryEphemeralStat": "True",
+    "FFlagDebugDisableTelemetryEventIngest": "True",
+    "FFlagDebugDisableTelemetryPoint": "True",
+    "FFlagDebugDisableTelemetryV2Counter": "True",
+    "FFlagDebugDisableTelemetryV2Event": "True",
+    "FFlagDebugDisableTelemetryV2Stat": "True"
+}
+```
+
+
