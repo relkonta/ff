@@ -12,7 +12,7 @@ ___
 
 # Quality Of Life
 
-## Faster preloading
+*Faster preloading*
 
 ```
 {
@@ -21,7 +21,7 @@ ___
 }
 ```
 
-## Limits lighting changes
+*Limits lighting changes*
 
 ```
 {
@@ -29,7 +29,7 @@ ___
     "FIntRenderLocalLightUpdatesMin": "6"
 }
 ```
-## Remove in-game advertisements
+*Remove in-game advertisements*
 
 ```
 {
@@ -37,7 +37,7 @@ ___
 }
 ```
 
-## Disable telemetry
+*Disable telemetry*
 
 ```
 {
