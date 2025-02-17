@@ -130,6 +130,31 @@ __(This is for vociechat)__
 }
 ```
 
+*Display your fps*
+
+```
+{
+	"FFlagDebugDisplayFPS": "True"
+}
+```
+
+*Stop purchase prompts*
+
+```
+{
+	"DFFlagOrder66": "True"
+}
+```
+
+*Accessory adjustment in roblox player beta*
+
+```
+{
+"FFlagAXAccessoryAdjustmentIXPEnabledForAll": "True",
+"FFlagAccessoryAdjustmentEnabled5": "True"
+}
+```
+
 # Physics related FFlags
 
 *Tool desync*
@@ -291,3 +316,142 @@ __(Adjust the value so you dont fall through the ground)__
 __(Adjust the value so you dont fall through the ground)__
 
 ```
+{
+"DFIntAssemblyExtentsExpansionStudHundredth": "-50"
+}
+```
+
+*Consistent high jump*
+
+__(The higher the negative value the higher you jump, 0 Makes you float)__
+
+```
+{
+    "DFIntMaxAltitudePDStickHipHeightPercent": "-200"
+}
+```
+
+*Wall glide*
+
+```
+{
+    "DFIntUnstickForceAttackInTenths": "-4"
+}
+```
+
+*Better network ownership*
+
+```
+{
+    "DFIntMinClientSimulationRadius": "2147000000",
+    "DFIntMinimalSimRadiusBuffer": "2147000000",
+    "DFIntMaxClientSimulationRadius": "2147000000"
+}
+```
+
+*Break most glitches*
+
+```
+{ 
+"DFFlagSimHumanoidPhysics": "True"
+}
+```
+
+*Become short*
+
+```
+{
+"DFIntMaxAltitudePDHipHeightPercent": "-100"
+}
+```
+
+*Fling yourself*
+
+```
+{
+"DFIntNewRunningBaseGravityReductionFactorHundredth": "2500"
+}
+```
+
+*High ladder-flicks*
+
+```
+{
+ "DFIntNewRunningBaseGravityReductionFactorHundredth": "1000"
+}
+```
+
+# Visusals
+
+*Semi full-bright*
+
+__(A bit buggy)__
+
+```
+{
+    "FFlagFastGPULightCulling3": "True",
+    "FIntRenderShadowIntensity": "0",
+    "DFIntCullFactorPixelThresholdShadowMapHighQuality": "2147483647",
+    "DFIntCullFactorPixelThresholdShadowMapLowQuality": "2147483647",
+    "FFlagNewLightAttenuation": "True",
+    "FIntRenderShadowmapBias": "-1",
+    "DFFlagDebugPauseVoxelizer": "True"
+}
+```
+
+*Outline hitboxes #1*
+
+```
+{
+    "DFFlagDebugDrawBroadPhaseAABBs": "True"
+}
+```
+
+*Outline hitboxes #2*
+
+```
+{
+    "DFFlagDebugDrawBvhNodes": "True"
+}
+```
+
+*Buggy z-plane camera*
+
+```
+{
+    "FIntCameraFarZPlane": "1"
+}
+```
+
+*Adds a in-game ui that shows what your character is touching*
+
+```
+{
+    "FFlagDebugHumanoidRendering": "True"
+}
+```
+
+*X-ray #1*
+
+```
+{
+    "DFIntCullFactorPixelThresholdMainViewHighQuality": "10000",
+    "DFIntCullFactorPixelThresholdMainViewLowQuality": "10000",
+    "DFIntCullFactorPixelThresholdShadowMapHighQuality": "10000",
+    "DFIntCullFactorPixelThresholdShadowMapLowQuality": "10000"
+}
+```
+
+*X-ray #2*
+
+```
+{
+  "DFIntCullFactorPixelThresholdMainViewHighQuality": "1250",
+  "DFIntCullFactorPixelThresholdMainViewLowQuality": "1250",
+  "DFIntCullFactorPixelThresholdShadowMapHighQuality": "1250",
+  "DFIntCullFactorPixelThresholdShadowMapLowQuality": "1250",
+  "DFIntDebugFRMQualityLevelOverride": "1"
+}
+```
+
+**
