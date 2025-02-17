@@ -6,7 +6,7 @@ ___
 
 # Quality Of Life
 
-{
+[ {
     "DFIntNumAssetsMaxToPreload": "9999999",
     "DFIntAssetPreloading": "9999999"
-}
+} ]
