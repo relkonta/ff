@@ -3,3 +3,10 @@
 𝙘𝙤𝙣𝙩𝙖𝙞𝙣𝙞𝙣𝙜 𝙦𝙪𝙖𝙡𝙞𝙩𝙮 𝙤𝙛 𝙡𝙞𝙛𝙚, 𝙋𝙝𝙮𝙨𝙞𝙘𝙨 𝙧𝙚𝙡𝙖𝙩𝙚𝙙 𝙛𝙖𝙨𝙩𝙛𝙡𝙖𝙜𝙨 𝙖𝙣𝙙 𝙑𝙞𝙨𝙪𝙖𝙡 𝙛𝙖𝙨𝙩𝙛𝙡𝙖𝙜𝙨.
 
 ___
+
+# Quality Of Life
+
+{
+    "DFIntNumAssetsMaxToPreload": "9999999",
+    "DFIntAssetPreloading": "9999999"
+}
