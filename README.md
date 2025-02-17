@@ -12,9 +12,27 @@ ___
 
 # Quality Of Life
 
+Faster preloading
+
 ```
 {
     "DFIntNumAssetsMaxToPreload": "9999999",
     "DFIntAssetPreloading": "9999999"
+}
+```
+
+Limits lighting changes
+
+```
+{
+    "FIntRenderLocalLightUpdatesMax": "8",
+    "FIntRenderLocalLightUpdatesMin": "6"
+}
+```
+Remove in-game advertisements
+
+```
+{
+    "FFlagAdServiceEnabled": "False"
 }
 ```
