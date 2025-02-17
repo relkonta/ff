@@ -134,4 +134,23 @@ ___
 }
 ```
 
-# 
+# Physics related FFlags
+
+*Tool desync*
+
+```
+{
+    "DFIntSimBlockLargeLocalToolWeldManipulationsThreshold": "-1"
+}
+```
+
+*Adjust your hip height clamp (Only works with the mage animation in r15)*
+**Making the negative value bigger causes your hip height clamp to be higher**
+
+```
+{
+    "DFIntHipHeightClamp": "-48"
+}
+```
+
+**
