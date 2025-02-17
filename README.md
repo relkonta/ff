@@ -51,4 +51,87 @@ ___
 }
 ```
 
+*Disable shadows*
 
+```
+{
+    "DFIntCullFactorPixelThresholdShadowMapHighQuality": "2147483647",
+    "DFIntCullFactorPixelThresholdShadowMapLowQuality": "2147483647"
+}
+```
+
+*Reduce avatar particles in first person*
+
+```
+{
+    "FFlagUserHideCharacterParticlesInFirstPerson": "True"
+}
+```
+
+*Smoother terrain*
+
+```
+{
+    "FFlagDebugRenderingSetDeterministic": "True"
+}
+```
+
+*Disable player shadows*
+
+```
+{
+    "FIntRenderShadowIntensity": "0"
+}
+```
+
+*5 Decimal digits limit for camera sensitivty*
+
+```
+{
+    "FFlagFixSensitivityTextPrecision": "False"
+}
+```
+
+*Disable voicechat*
+
+```
+{
+    "DFFlagVoiceChat4": "False"
+}
+```
+
+*Disable dynamic head animations*
+
+```
+{
+    "DFIntAnimationLodFacsDistanceMin": "0",
+    "DFIntAnimationLodFacsDistanceMax": "0",
+    "DFIntAnimationLodFacsVisibilityDenominator": "0"
+}
+```
+
+*Automatically unmute your mic when you join (Voicechat)*
+
+```
+{
+    "FFlagDebugDefaultChannelStartMuted": "False"
+}
+```
+
+*Change zoom out limit*
+
+```
+{
+    "FIntCameraMaxZoomDistance": "9999"
+}
+```
+
+*Quick game launching*
+
+```
+{
+    "FFlagEnableQuickGameLaunch": "True"
+}
+```
+
+# 
