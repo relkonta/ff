@@ -1,7 +1,4 @@
-# FF.github.io
-𝙏𝙝𝙞𝙨 𝙞𝙨 𝙖 𝙙𝙤𝙘𝙪𝙢𝙚𝙣𝙩𝙖𝙩𝙞𝙤𝙣 𝙤𝙛 𝙚𝙫𝙚𝙧𝙮 𝙛𝙖𝙨𝙩𝙛𝙡𝙖𝙜 𝙄 𝙝𝙖𝙫𝙚 𝙘𝙤𝙢𝙚 𝙖𝙘𝙧𝙤𝙨𝙨
-𝙘𝙤𝙣𝙩𝙖𝙞𝙣𝙞𝙣𝙜 𝙦𝙪𝙖𝙡𝙞𝙩𝙮 𝙤𝙛 𝙡𝙞𝙛𝙚, 𝙋𝙝𝙮𝙨𝙞𝙘𝙨 𝙧𝙚𝙡𝙖𝙩𝙚𝙙 𝙛𝙖𝙨𝙩𝙛𝙡𝙖𝙜𝙨 𝙖𝙣𝙙 𝙑𝙞𝙨𝙪𝙖𝙡 𝙛𝙖𝙨𝙩𝙛𝙡𝙖𝙜𝙨.
-
+# $̶$̶$̶-̶_̶_̶
 ___
 
 # Quality Of Life
@@ -175,7 +172,34 @@ __(Making the negative value bigger causes your hip height clamp to be higher)__
 }
 ```
 
-*Weird movement*
+*Weird movement #1*
+
+```
+{
+    "FFlagSimAdaptiveTimesteppingDefault2": "True",
+    "DFIntSimAdaptiveHumanoidPDControllerSubstepMultiplier": "-999999",
+    "DFFlagSimHumanoidTimestepModelUpdate": "True"
+}
+```
+
+*Weird movement #2*
+
+```
+{
+    "DFIntSolidFloorPercentForceApplication": "-1000",
+    "DFIntNonSolidFloorPercentForceApplication": "-5000"
+}
+```
+
+*Weird movement #3*
+
+```
+{
+    "DFIntSimAdaptiveHumanoidPDControllerSubstepMultiplier": "-1"
+}
+```
+
+*Weird movement #4*
 
 ```
 {
@@ -307,16 +331,6 @@ __(Adjust the value so you dont fall through the ground)__
 
 ```
 {
-    "DFIntMaxMissedWorldStepsRemembered": "1"
-}
-```
-
-*Noclip #2*
-
-__(Adjust the value so you dont fall through the ground)__
-
-```
-{
 "DFIntAssemblyExtentsExpansionStudHundredth": "-50"
 }
 ```
@@ -357,6 +371,28 @@ __(The higher the negative value the higher you jump, 0 Makes you float)__
 }
 ```
 
+*Breaks physics*
+
+```
+{
+  "FLogNetwork": "7",
+  "FFlagHandleAltEnterFullscreenManually": "False",
+  "FIntFullscreenTitleBarTriggerDelayMillis": "3600000",
+  "DFIntCanHideGuiGroupId": "32380007",
+  "DFIntPhysicsAnalyticsHighFrequencyIntervalSec": "20",
+  "DFIntMaxFrameBufferSize": "4",
+  "DFIntS2PhysicsSenderRate": "250",
+  "FFlagLuauSolverV2": "True",
+  "DFIntMaximumFreefallMoveTimeInTenths": "1000",
+  "FIntInterpolationAwareTargetTimeLerpHundredth": "110",
+  "FFlagReplicateAnimationLooped": "False",
+  "FFlagGraphicsFixMsaaInGuiScene": "True",
+  "DFFlagSimSolverOptimizeLDLCache": "True",
+  "FFlagEnableSceneAnalysis": "False",
+  "DFIntGraphicsOptimizationModeMaxFrameTimeTargetMs": "20"
+}
+```
+
 *Become short*
 
 ```
@@ -365,11 +401,52 @@ __(The higher the negative value the higher you jump, 0 Makes you float)__
 }
 ```
 
-*Fling yourself*
+*Fling yourself #1*
 
 ```
 {
 "DFIntNewRunningBaseGravityReductionFactorHundredth": "2500"
+}
+```
+
+*Fling yourself #2*
+
+```
+{
+ "DFFlagSimHumanoidTimestepModelUpdate": "true",
+ "DFFlagSimRefactorCollisionGeometry2": "true",
+ "DFIntMaxAltitudePDHipHeightPercent": "-825000",
+ "DFIntMaxAltitudePDStickHipHeightPercent": "2147483647",
+ "DFIntMaximumFreefallMoveTimeInTenths": "-2147483648",
+ "DFIntMaximumUnstickForceInGs": "10000000000",
+ "DFIntNewRunningBaseGravityReductionFactorHundredth": "1000",
+ "DFIntSimAdaptiveHumanoidPDControllerSubstepMultiplier": "-1323232",
+ "DFIntUnstickForceAttackInTenths": "50",
+ "FFlagEnablePhysicsAdaptiveTimeSteppingIXP": "true",
+ "SFFlagBulletContactBreakOrthogonalThresholdPercent": "2147483647"
+}
+```
+
+*Fling yourself #3*
+
+```
+{
+  "DFIntMaxAltitudePDHipHeightPercent": "-1000",
+  "DFIntSimAdaptiveHumanoidPDControllerSubstepMultiplier": "-200000",
+  "SFFlagBulletContactBreakOrthogonalThresholdPercent": "2147483647",
+  "DFIntMaxAltitudePDStickHipHeightPercent": "2147483647"
+}
+```
+
+*Fling yourself #4*
+
+```
+{
+  "DFIntMaxAltitudePDHipHeightPercent": "-5000",
+  "DFFlagSimStepPhysicsImprovedSubStepping": "true",
+  "SFFlagBulletContactBreakOrthogonalThresholdPercent": "-2147483647",
+  "DFIntMaxAltitudePDStickHipHeightPercent": "2147483647",
+  "DFIntSimAdaptiveHumanoidPDControllerSubstepMultiplier": "-10000000"
 }
 ```
 
@@ -378,6 +455,124 @@ __(The higher the negative value the higher you jump, 0 Makes you float)__
 ```
 {
  "DFIntNewRunningBaseGravityReductionFactorHundredth": "1000"
+}
+```
+
+*Weird tp*
+
+```
+{
+  "DFIntSimAdaptiveHumanoidPDControllerSubstepMultiplier": "-2147483648"
+}
+```
+
+*R15 speedhack*
+
+```
+{
+  "DFIntHipHeightClamp": "-7",
+  "DFIntUnstickForceAttackInTenths": "-1"
+}
+```
+
+*Ragdoll yourself*
+
+```
+{
+  "DFIntSimAdaptiveHumanoidPDControllerSubstepMultiplier": "-999999",
+  "FIntPGSAngularDampingPermilPersecond": "0"
+}
+```
+
+*Really fast wall-glide*
+
+```
+{
+    "FFlagSimAdaptiveTimesteppingDefault2": "True",
+    "DFIntSimAdaptiveHumanoidPDControllerSubstepMultiplier": "-999999",
+    "DFFlagSimHumanoidTimestepModelUpdate": "True",
+    "DFIntUnstickForceAttackInTenths": "-4"
+}
+```
+
+*Prevents position tp*
+
+```
+{
+    "DFIntRaycastMaxDistance": "2",
+    "DFIntNewRunningBaseGravityReductionFactorHundredth": "1000"
+}
+```
+
+*Ultimate desync*
+
+```
+{
+"DFIntS2PhysicsSenderRate": "1",
+"FIntPGSAngularDampingPermilPersecond": "0"
+}
+```
+
+*Less knockback*
+
+```
+{
+    "DFIntPhysicsImprovedCyclicExecutiveThrottleThresholdTenth": "-1",
+    "DFIntGameNetLocalSpaceMaxSendIndex": "100000"
+}
+```
+
+*Slightly higher jump*
+
+```
+{
+"SFFlagBulletContactBreakOrthogonalThresholdPercent": "2147483647"
+}
+```
+
+*Purely broken movement #1*
+
+```
+{
+  "DFIntRaycastMaxDistance": "-110",
+  "DFIntBulletContactBreakOrthogonalThresholdPercent": "-2147483647",
+  "DFIntMaximumFreefallMoveTimeInTenths": "0",
+  "DFIntSimAdaptiveHumanoidPDControllerSubstepMultiplier": "-1"
+}
+```
+*Purely broken movement #2*
+
+```
+{
+"DFIntAssemblyExtentsExpansionStudHundredth": "-10",
+ "DFIntBulletContactBreakOrthogonalThresholdPercent": "-2147483648",
+ "DFIntGameNetLocalSpaceMaxSendIndex": "100000",
+ "DFIntMaxAltitudePDHipHeightPercent": "-5000",
+ "DFIntMaxAltitudePDStickHipHeightPercent": "2147483647",
+ "DFIntMaximumFreefallMoveTimeInTenths": "2147483648",
+ "DFIntMaxMissedWorldStepsRemembered": "1000",
+"DFIntSimAdaptiveHumanoidPDControllerSubstepMultiplier": "-10000000",
+ "DFIntSmoothTerrainPhysicsRayAabbSlop": "-2147483648",
+ "SFFlagBulletContactBreakOrthogonalThresholdPercent": "-2147483647"
+}
+```
+
+*Become paralysed*
+
+```
+{
+  "DFIntMaxAltitudePDHipHeightPercent": "-700",
+  "DFIntSimAdaptiveHumanoidPDControllerSubstepMultiplier": "-1",
+  "SFFlagBulletContactBreakOrthogonalThresholdPercent": "-2147483647",
+  "DFIntMaxAltitudePDStickHipHeightPercent": "2147483647"
+}
+```
+
+*Prevents remote events from running*
+
+```
+{
+"DFIntRemoteEventSingleInvocationSizeLimit": "1"
 }
 ```
 
@@ -454,4 +649,28 @@ __(A bit buggy)__
 }
 ```
 
-**
+*Turn the sky gray*
+
+```
+{
+"FFlagDebugSkyGray": "True"
+}
+```
+
+# Presets
+
+*High quality graphics, lighting etc.*
+
+```
+{
+    "DFFlagTextureQualityOverrideEnabled": "True",
+    "DFIntTextureQualityOverride": "3",
+    "DFIntCanHideGuiGroupId":	"32380007",
+    "DFIntTaskSchedulerTargetFps": "999",
+    "FFlagDebugForceFutureIsBrightPhase3": "True",
+    "FFlagDebugGraphicsPreferD3D11": "True",
+    "FFlagRenderInitShadowmaps": "true",
+    "FFlagDebugSkyGray": "True",
+    "FFlagDebugRenderingSetDeterministic": "True"
+}
+```
