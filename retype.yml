@@ -1,1 +1,5 @@
+input: ./docs
+output: ./public
 
+branding:
+  title: fflag$
